@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pradeep-dev/static/css/main.4aff84ad.css",
+    "main.js": "/pradeep-dev/static/js/main.d7120b7f.js",
+    "static/media/skillstwo.jpg": "/pradeep-dev/static/media/skillstwo.762caa8fd22e178837f6.jpg",
+    "static/media/intro.jpg": "/pradeep-dev/static/media/intro.2656a9bfc84f574ea56a.jpg",
+    "static/media/19362653.jpg": "/pradeep-dev/static/media/19362653.0a4893421f4eb80a395c.jpg",
+    "static/media/guvi.png": "/pradeep-dev/static/media/guvi.def0eda86cae87921b36.png",
+    "static/media/Udemy.jpg": "/pradeep-dev/static/media/Udemy.bd9718c16a87fea7c000.jpg",
+    "static/media/web-developer.1004x1024.png": "/pradeep-dev/static/media/web-developer.1004x1024.4ca45b877b2f52ee1b52.png",
+    "static/media/remove-laptop-clone.jpg": "/pradeep-dev/static/media/remove-laptop-clone.399dc186415fd8918c9f.jpg",
+    "static/media/e-comme.jpg": "/pradeep-dev/static/media/e-comme.9595c62fe71ebf7ff2db.jpg",
+    "static/media/mini-projects.jpg": "/pradeep-dev/static/media/mini-projects.2fca36e8938b7bcc34bd.jpg",
+    "static/media/document-maker.jpg": "/pradeep-dev/static/media/document-maker.7e8c5aeea64c2d55db6a.jpg",
+    "index.html": "/pradeep-dev/index.html",
+    "main.4aff84ad.css.map": "/pradeep-dev/static/css/main.4aff84ad.css.map",
+    "main.d7120b7f.js.map": "/pradeep-dev/static/js/main.d7120b7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aff84ad.css",
+    "static/js/main.d7120b7f.js"
+  ]
+}
