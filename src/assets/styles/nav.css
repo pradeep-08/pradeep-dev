@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.nav-bar{
+    background-color: black;
+    height: 5.62rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    opacity: 0.90;
+    z-index: 5;
+  
+}
+@media screen and (max-width: 768px) {
+    .nav-bar{
+        background-color: black;
+        height: 4.82rem;
+        width: fit-content;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        opacity: 0.90;
+      
+    }
+}
+.nav-containers{
+    display: flex;
+    align-items: center;
+    margin-right: 550px;
+    
+}
+.pro-img{
+    bottom: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+.logo-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo-name{
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 15px;
+    cursor: pointer;
+ 
+}
+
+.nav-items{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 17px;
+    cursor: pointer;
+}
+.nav-items:hover {
+font-size: 18px;
+ text-shadow: 1px 1px 15px rgb(212, 101, 101);
+}
+.nav-container-two{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.adjust-div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resume{
+    color: rgb(25, 255, 148);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid rgb(25, 255, 148);
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(90, 86, 86);
+}
+.resume:hover {
+    font-size: 16px;
+    
+    }
+@media screen  and (max-width: 1024px) and (min-width: 768px){
+    .nav-bar{
+        background-color: black;
+        height: 4.32rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        opacity: 0.90;
+      
+    }
+   
+    .nav-containers{
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        
+    }
+    .pro-img{
+        bottom: 15px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    
+    }
+    
+    .logo-image{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .logo-name{
+        color: #FFF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 15px;
+        cursor: pointer;
+     
+    }
+    
+    .nav-items{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;   
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 17px;
+        cursor: pointer;
+    }
+    .nav-container-two{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    
+    .adjust-div{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .resume{
+        color: rgb(25, 255, 148);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        background-color: black;
+        border: 1px solid rgb(25, 255, 148);
+        border-radius: 15px;
+        padding: 15px;
+        cursor: pointer;
+        box-shadow: 1px 1px 15px rgb(90, 86, 86);
+    }
+    
+}

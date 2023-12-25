@@ -1,0 +1,539 @@
+.second-page-container{
+    width: auto;
+    height: 800px;
+    
+    
+}
+
+.image-second-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-size: contain;
+    z-index: -1;
+}
+
+.about-me{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    
+}
+.image{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    box-shadow: 1px 5px 19px #000000;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content{
+    color: #515151;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    width: 898px;
+    height: 71px;
+    padding-top: 30px;
+    z-index: -1;
+}
+.child{
+    padding-left: 50px;
+}
+.second{
+    color: #515151;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    width: 898px;
+    height: 71px;
+    padding-top: 40px;
+}
+.know-me{
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    padding: 10px;
+    
+}
+.button-div1{
+    width: auto;
+}
+.button1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 150px;
+    cursor: pointer;
+}
+.project-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 56px;
+    background: #00FA82;
+    border: none;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 15px #000000;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    cursor: pointer;
+}
+
+.size-text{
+    font-weight: bolder;
+    font-size: 24px;
+}
+@media screen  and (max-width: 1440px) and (min-width: 1025px){
+    .second-page-container{
+        width: auto;
+        height: 600px;
+        
+        
+    }
+    .button1{
+        display: flex;
+        justify-content:flex-start;
+        cursor: pointer;
+    }
+    .project-button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 138px;
+        height: 50px;
+        background: #00FA82;
+        border: none;
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 3px 3px 15px #000000;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .size-text{
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    .about-me{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 15px rgb(27, 27, 27);
+    }
+    .about-content{
+        color: #515151;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 4px;
+        width: auto;
+        height: fit-content;
+        padding-top: 20px;
+        
+    }
+    .second-page-container{
+        width: fit-content;
+        
+       
+    }
+    .child{
+        margin-inline: 15px;
+    }
+    .know-me{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 15px rgb(55, 242, 255);
+        
+    }
+    .image{
+        width: 90%;
+        margin-inline: 15px;
+        box-shadow: 1px 5px 19px #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        padding-right: 15px;
+        
+    }
+}
+@media screen  and (max-width: 1024px) and (min-width: 769px){
+    .second-page-container{
+        width: auto;
+        height: 600px;
+        
+        
+    }
+    .button1{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .project-button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 138px;
+        height: 50px;
+        background: #00FA82;
+        border: none;
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 3px 3px 15px #000000;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .size-text{
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    .about-me{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 15px rgb(27, 27, 27);
+    }
+    .about-content{
+        color: #515151;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 4px;
+        width: auto;
+        height: fit-content;
+        padding-top: 20px;
+        
+    }
+    .second-page-container{
+        width: fit-content;
+        
+       
+    }
+    .child{
+        margin-inline: 15px;
+    }
+    .know-me{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 15px rgb(55, 242, 255);
+        
+    }
+    .image{
+        width: 90%;
+        margin-inline: 15px;
+        box-shadow: 1px 5px 19px #000000;
+        cursor: pointer;
+        border-radius: 5px;
+        padding-right: 15px;
+        
+    }
+}
+@media screen  and (max-width: 700px) and (min-width: 476px){
+    .second-page-container{
+        width: auto;
+        height: 650px;
+        
+        
+    }
+    .button1{
+        display: flex;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+    .project-button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 138px;
+        height: 50px;
+        background: #00FA82;
+        border: none;
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 3px 3px 15px #000000;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .about-me{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 15px rgb(27, 27, 27);
+    }
+    .about-content{
+        color: #515151;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4px;
+        width: fit-content;
+        height: fit-content;
+        padding-top: 30px;
+        
+    }
+    .image-second-container{
+        width: 0;
+    }
+    .second-page-container{
+        width: auto;
+        height: fit-content;
+    }
+    .child{
+        display: flex;
+        justify-content: center;
+        margin-inline: 15px;
+    }
+    .know-me{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 15px rgb(55, 242, 255);
+        
+    }
+    .image{
+        width: 0%;
+        box-shadow: 1px 5px 19px #000000;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+}
+@media screen  and (max-width: 768px) and (min-width: 700px){
+    .second-page-container{
+        width: auto;
+        height: 650px;
+    }
+    .button1{
+        display: flex;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+    .project-button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 138px;
+        height: 50px;
+        background: #00FA82;
+        border: none;
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 3px 3px 15px #000000;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .about-me{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 15px rgb(27, 27, 27);
+    }
+    .about-content{
+        color: #515151;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4px;
+        width: fit-content;
+        height: fit-content;
+        padding-top: 30px;
+        
+    }
+    .image-second-container{
+        width: 0;
+    }
+    .second-page-container{
+        width: auto;
+    }
+    .child{
+        display: flex;
+        justify-content: center;
+        margin-inline: 15px;
+    }
+    .know-me{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 15px rgb(55, 242, 255);
+        
+    }
+    .image{
+        width: 0%;
+        box-shadow: 1px 5px 19px #000000;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+}
+
+@media screen  and (max-width: 475px) and (min-width: 320px){
+    .button1{
+        display: flex;
+        padding-top: 15px;
+        cursor: pointer;
+        padding-bottom: 30px;
+    }
+    .project-button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 138px;
+        height: 50px;
+        background: #00FA82;
+        border: none;
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        box-shadow: 3px 3px 15px #000000;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        cursor: pointer;
+    }
+    .about-me{
+        padding-top: 30px;
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 15px rgb(27, 27, 27);
+    }
+    .about-content{
+        color: #515151;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4px;
+        width: fit-content;
+        height: fit-content;
+        padding-top: 30px;
+        
+    }
+    .second-page-container{
+        width: fit-content;
+        height: fit-content;
+        box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    }
+    .child{
+        margin-inline: 15px;
+    }
+    .know-me{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 15px rgb(55, 255, 65);
+        
+    }
+    .image{
+        width: 0%;
+        box-shadow: 1px 5px 19px #000000;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    .container{
+        display: grid;
+        
+    }
+}

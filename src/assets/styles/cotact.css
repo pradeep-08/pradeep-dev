@@ -1,0 +1,132 @@
+.main-contact-container{
+    height: 1000px;
+   
+}
+
+.contact-span{
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    width: 50%;
+}
+.contact-box-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    width: 553px;
+    height: 547px;
+    background: #1b1a1a;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 17px 25px 25px rgb(51, 50, 50);
+}
+
+.contact-description{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.name-input-box{
+    width: 398px;
+    height: 48px;
+    border: none;
+    color: #fff8f8;
+    border-bottom: 2px solid #793f3f;
+    background-color: #1B1A1A;
+    outline: 0;
+}
+
+.name{
+    color: #fff8f8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    padding-top: 30px;
+    
+}
+input::placeholder {
+  
+    font: 0.8rem/1 sans-serif;
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+@media screen  and (max-width: 768px) and (min-width: 320px){
+    .main-contact-container{
+        height: 700px;
+        width: auto; 
+    }
+
+    .about-me{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #000;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6px;
+    }
+
+    .contact-span{
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        width: 90%;
+    }
+    .contact-box-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 35px;
+        width: 403px;
+        height: 447px;
+        background: #1b1a1a;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 17px 25px 25px rgb(51, 50, 50);
+    }
+    .name-input-box{
+        width: 308px;
+        height: 38px;
+        border-bottom: 1px solid #fff8f8;
+        background-color: #1B1A1A;
+        
+    }
+    
+    .name{
+        color: #fff8f8;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        
+    }
+}
+

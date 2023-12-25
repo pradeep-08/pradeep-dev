@@ -1,0 +1,294 @@
+.main-end-container{
+    height: fit-content;
+    background-color: black;
+}
+
+.social-descriptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+    .end-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    }
+
+   
+    .email-icon{
+        cursor: pointer;
+        padding: 10px;
+    }
+    .email-icon:hover{
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+    .name-div1{
+        width:fit-content;
+        display: flex;
+        align-items: flex-end;
+        padding: 50px;
+        
+    }
+    .qr-image-div{
+        cursor: pointer;
+        width: 8%;
+    }
+    .image-qr{
+        width: fit-content;
+    }
+    .end-name{
+        color: #FFF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        height: fit-content;
+        width: auto;
+        padding: 15px;
+        
+
+    }
+    
+    .end-descriptions{
+        color: #FFF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        height: fit-content;
+        line-height: normal;
+        padding-left: 150px;
+        width: 50%;
+    }
+    
+    .social{
+        color: #FFF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        height: fit-content;
+    }    
+
+    @media screen  and (max-width: 1024px) and (min-width: 768px) {
+        .main-end-container{
+            height: fit-content;
+            background-color: black;
+            width: auto;
+        }
+        .end-name{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            height: fit-content;
+            width: auto;
+            
+            
+    
+        }
+        .image-qr{
+            width: 10%;
+            padding: 15px;
+        }
+        .social-icons{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .email-icon{
+            cursor: pointer;
+            padding: 10px;
+        }
+        
+        .qr-image-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .social{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            
+        } 
+        .name-div1{
+            width: auto;
+            display: flex;
+            align-items: flex-end;
+            padding: 30px;
+            
+        }
+        
+        .end-descriptions{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            line-height: normal;
+            padding-left: 30px;
+            width: 90%;
+        }
+
+}
+    @media screen  and (max-width: 768px) and (min-width: 476px) {
+        .main-end-container{
+            height: 400px;
+            background-color: black;
+            width: auto;
+        }
+        .end-name{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            height: fit-content;
+            width: auto;
+            
+            
+    
+        }
+        .image-qr{
+            width: 20%;
+            padding: 15px;
+        }
+        .social-icons{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .email-icon{
+            cursor: pointer;
+            padding: 10px;
+        }
+        
+        .qr-image-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .social{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            
+        } 
+        .name-div1{
+            width: auto;
+            display: flex;
+            align-items: flex-end;
+            padding: 30px;
+            
+        }
+        
+        .end-descriptions{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            line-height: normal;
+            padding-left: 30px;
+            width: 90%;
+        }
+
+}
+    @media screen  and (max-width: 475px) and (min-width: 320px) {
+        .main-end-container{
+            height: 400px;
+            background-color: black;
+            width: auto;
+        }
+        .end-name{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            height: fit-content;
+            width: auto;
+            
+            
+    
+        }
+        .image-qr{
+            width: 25%;
+        }
+        .social-icons{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .email-icon{
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .qr-image-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .social{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            
+        } 
+        .name-div1{
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            padding: 30px;
+            
+        }
+        
+        .end-descriptions{
+            color: #FFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            height: fit-content;
+            line-height: normal;
+            padding-left: 30px;
+            width: 90%;
+        }
+
+}
+
+
+
