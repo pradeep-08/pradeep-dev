@@ -52,7 +52,7 @@ function Contact() {
                 <input  name="user_email" className='name-input-box' type="mail" placeholder='Enter your Email' required/>
             </div>
             <div className="name-div" data-aos="fade-up">
-                <div className="name">Massage</div>
+                <div className="name">Message</div>
                 <textarea name="message" className='name-input-box' id="" cols="30" rows="10"  required></textarea>
             </div>
         </div>
