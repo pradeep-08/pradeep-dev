@@ -24,7 +24,7 @@ function End() {
                 <div className="social-icons">
                 <img  className='email-icon' onClick={() => openInNewTab('https://www.linkedin.com/in/pradeep-t-1b97491aa/')} width="28" height="28" src="https://img.icons8.com/color/68/linkedin.png" alt="linkedin"/>
                 <img className='email-icon' onClick={() => window.location = 'mailto:pradeep.tasp.0802@gmail.com'} width="28" height="28" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/>
-                <img className='email-icon' onClick={() => openInNewTab('https://https://github.com/pradeep-08')}  width="28" height="28" src="https://img.icons8.com/officel/48/github.png" alt="github"/>
+                <img className='email-icon' onClick={() => openInNewTab('https://github.com/pradeep-08')}  width="28" height="28" src="https://img.icons8.com/officel/48/github.png" alt="github"/>
                 
                 </div>
                 </div> 
