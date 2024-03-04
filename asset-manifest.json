@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pradeep-dev/static/css/main.4aff84ad.css",
-    "main.js": "/pradeep-dev/static/js/main.d7120b7f.js",
+    "main.css": "/pradeep-dev/static/css/main.589811a9.css",
+    "main.js": "/pradeep-dev/static/js/main.383450b1.js",
     "static/media/skillstwo.jpg": "/pradeep-dev/static/media/skillstwo.762caa8fd22e178837f6.jpg",
     "static/media/intro.jpg": "/pradeep-dev/static/media/intro.2656a9bfc84f574ea56a.jpg",
     "static/media/19362653.jpg": "/pradeep-dev/static/media/19362653.0a4893421f4eb80a395c.jpg",
@@ -13,11 +13,11 @@
     "static/media/mini-projects.jpg": "/pradeep-dev/static/media/mini-projects.2fca36e8938b7bcc34bd.jpg",
     "static/media/document-maker.jpg": "/pradeep-dev/static/media/document-maker.7e8c5aeea64c2d55db6a.jpg",
     "index.html": "/pradeep-dev/index.html",
-    "main.4aff84ad.css.map": "/pradeep-dev/static/css/main.4aff84ad.css.map",
-    "main.d7120b7f.js.map": "/pradeep-dev/static/js/main.d7120b7f.js.map"
+    "main.589811a9.css.map": "/pradeep-dev/static/css/main.589811a9.css.map",
+    "main.383450b1.js.map": "/pradeep-dev/static/js/main.383450b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aff84ad.css",
-    "static/js/main.d7120b7f.js"
+    "static/css/main.589811a9.css",
+    "static/js/main.383450b1.js"
   ]
 }
