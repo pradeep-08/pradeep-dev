@@ -102,6 +102,7 @@
     line-height: normal;
     letter-spacing: 3.6px;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .size-text{
@@ -136,7 +137,7 @@
         line-height: normal;
         letter-spacing: 3.6px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius:8px;
     }
     .size-text{
         font-weight: bolder;
@@ -225,7 +226,7 @@
         line-height: normal;
         letter-spacing: 3.6px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .size-text{
         font-weight: bolder;
@@ -314,7 +315,7 @@
         line-height: normal;
         letter-spacing: 3.6px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .about-me{
         padding-top: 30px;
@@ -399,7 +400,7 @@
         line-height: normal;
         letter-spacing: 3.6px;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 8px;
     }
     .about-me{
         padding-top: 30px;
@@ -481,6 +482,7 @@
         line-height: normal;
         letter-spacing: 3.6px;
         cursor: pointer;
+        border-radius: 8px;
     }
     .about-me{
         padding-top: 30px;

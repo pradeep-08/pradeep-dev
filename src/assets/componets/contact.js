@@ -49,11 +49,11 @@ function Contact() {
             </div>
             <div className="name-div" data-aos="fade-up">
                 <div className="name">Email</div>
-                <input  name="user_email" className='name-input-box' type="mail" placeholder='Enter your Email' required/>
+                <input  name="user_email" className='name-input-box' type="mail" placeholder='Type your Email' required/>
             </div>
             <div className="name-div" data-aos="fade-up">
                 <div className="name">Message</div>
-                <textarea name="message" className='name-input-box' id="" cols="30" rows="10"  required></textarea>
+                <textarea name="message" className='name-input-box' placeholder='Type your message....' id="" cols="30" rows="10"  required></textarea>
             </div>
         </div>
         <div className="button-div1"><div className="button1"><button className='project-button1' type="submit" value="Send"  onClick={e=> Notify()}>Submit</button></div></div>

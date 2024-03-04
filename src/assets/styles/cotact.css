@@ -19,8 +19,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 35px;
-    width: 553px;
-    height: 547px;
+    width: 453px;
+    height: 447px;
     background: #1b1a1a;
     padding: 15px;
     border-radius: 15px;
@@ -52,7 +52,7 @@
 .name{
     color: #fff8f8;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -62,7 +62,7 @@
 }
 input::placeholder {
   
-    font: 0.8rem/1 sans-serif;
+    font: 0.7rem/1 sans-serif;
 }
 .button:active {
     background-color: #3e8e41;
