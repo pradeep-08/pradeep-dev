@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styles/end.css';
-import Logo from '../../images/download.png';
+import Logo from '../../images/svg.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 function End() {
