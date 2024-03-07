@@ -27,7 +27,10 @@ function End() {
                 <img className='email-icon' onClick={() => openInNewTab('https://github.com/pradeep-08')}  width="28" height="28" src="https://img.icons8.com/officel/48/github.png" alt="github"/>
                 
                 </div>
+                
                 </div> 
+               
+                <div class="copyright">Handcrafted by me <span class="icon has-white-text"> <img width="20" height="20" src="https://img.icons8.com/color/48/copyright--v1.png" alt="copyright"/> </span> twentytwentyfour</div>
             </div>
 
 

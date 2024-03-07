@@ -11,7 +11,12 @@
 }
 
 
-
+.copyright{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    
+}
 
     .end-container{
     display: flex;
