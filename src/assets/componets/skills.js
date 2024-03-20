@@ -6,7 +6,7 @@ function Skills() {
   useEffect(()=>{
     AOS.init({duration:2000});
   },[]);
-  return <><div className="main-div1">
+  return <><div className="main-div1 main-div-2">
 
         <h2 className='skills'><div className="my-skills" data-aos="fade-up">MY SKILLS</div></h2>
         

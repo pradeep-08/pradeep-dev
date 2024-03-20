@@ -5,9 +5,12 @@
     padding-top: 10px;
     padding-bottom: 30px;
     box-shadow: 1px 1px 50px rgb(0, 0, 0);
-  
+    border-radius: 15px;
 }
 
+.main-div-2{
+    border-top-left-radius: 5%;
+}
 .skills{
     color: #000;
     font-family: 'Source Sans Pro', sans-serif;
