@@ -11,7 +11,7 @@ function Projects() {
   useEffect(()=>{
     AOS.init({duration:3000});
   },[]);
-  const openInNewTab = (url) => {
+  const openInNewTab = (url) => { 
     window.open(url, '_blank', 'noreferrer');
   }; 
   return <><div className='div-main-projects' id='projects'>

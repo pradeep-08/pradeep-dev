@@ -36,7 +36,7 @@ function Contact() {
 
            <ToastContainer />
   <div className="main-contact-container" id='page'> 
-  <div className='about-me' data-aos="zoom-out-right">Contact</div>
+  <div className='about-me' >Contact</div>
   <div className="contact-description"><span className='contact-span' data-aos="zoom-out-up">Feel free to Contact me by 
               submitting the form below and I will get back to you as soon as possible</span></div>
     <div className="contact-box-container">
