@@ -19,7 +19,7 @@ function Projects() {
   <div className="projects"><div className="head">Projects</div></div>
   <div className="main-container-div  main-container-div-responsive">
 
-  <div className="second-div1" > <span data-aos="fade-up" > An admin dashboard manages system tasks like data organization, user management, and transaction handling. It's a static page, user-friendly, and secure. I created it built with React, showcasing my skills in system management.</span>
+  <div className="second-div1" > <span data-aos="fade-up" >An admin dashboard manages system tasks like data organization, user management, and transaction handling. It's a static page, user-friendly, and secure. I created it built with React, showcasing my skills in system management. </span>
           <div className="button-div1"><div className="button1"><button onClick={() => openInNewTab('https://fitpeo-web-assignment.netlify.app/')}  className='project-button1'>LINK</button></div></div></div>
     <div className="first-div">
       <img data-aos="flip-down" className='laptop-image' src={Logo4} alt="" />
