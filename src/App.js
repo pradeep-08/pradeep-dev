@@ -15,16 +15,13 @@ function App() {
     <div className="App">
     
     <Nav /> 
-    
-  
     <Intro />
-     <Second/>
-    
-   <Skills />
-     <Projects />
+    <Second />
+    <Skills />
+    <Projects />
     <Certification />
     <Contact />
-   <End/>
+    <End/>
     </div>
   );
 }
