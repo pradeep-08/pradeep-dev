@@ -13,7 +13,6 @@ import End from './assets/componets/end';
 function App() {
   return (
     <div className="App">
-    
     <Nav /> 
     <Intro />
     <Second />
