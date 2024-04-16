@@ -1,5 +1,4 @@
 import './App.css';
-
 import Nav from './assets/componets/nav';
 import Intro from './assets/componets/intro';
 import Second from './assets/componets/second';
