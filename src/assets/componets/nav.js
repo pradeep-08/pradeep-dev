@@ -5,8 +5,8 @@ import Logo from '../../images/web-developer.1004x1024.png';
 import { ToastContainer , toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function nav() {
-  const onButtonClick = () => {
-    const pdfUrl = "Pradeep.pdf";
+  const onButtonpradeep-resume.pdfClick = () => {
+    const pdfUrl = "pradeep-resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "pradeep-resume.pdf"; // specify the filename
