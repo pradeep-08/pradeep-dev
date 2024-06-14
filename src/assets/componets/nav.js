@@ -9,7 +9,7 @@ function nav() {
     const pdfUrl = "Pradeep.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Pradeep.pdf"; // specify the filename
+    link.download = "pradeep-resume.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
