@@ -1,5 +1,4 @@
 import './App.css';
-
 import Nav from './assets/componets/nav';
 import Intro from './assets/componets/intro';
 import Second from './assets/componets/second';
@@ -13,18 +12,14 @@ import End from './assets/componets/end';
 function App() {
   return (
     <div className="App">
-    
     <Nav /> 
-    
-  
     <Intro />
-     <Second/>
-    
-   <Skills />
-     <Projects />
+    <Second />
+    <Skills />
+    <Projects />
     <Certification />
     <Contact />
-   <End/>
+    <End/>
     </div>
   );
 }
