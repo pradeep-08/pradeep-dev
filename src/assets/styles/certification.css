@@ -1,34 +1,128 @@
-.certification{
-    padding-top: 100px;
+.certification {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  border-bottom: 1px;
+  border-bottom-color: #5f0000;
+}
+.udemy-certificate {
+  width: 50%;
+  margin-left: 15px;
+  box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  display: flex;
+  justify-content: center;
+}
+.ux-certificate {
+  width: 30%;
+  margin-left: 15px;
+  box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  display: flex;
+  justify-content: center;
+}
+
+.certificate-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.summary {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-description {
+  width: 80%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 475px) and (min-width: 320px) {
+  .certificate-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: fit-content;
+  }
+
+  .certificate-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+  .summary {
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .summary-description {
+    width: 90%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-inline: 15px;
+    padding: 15px;
+  }
+  .udemy-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+  .ux-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+  .certification {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
     border-bottom: 1px;
     border-bottom-color: #5f0000;
-}
-.udemy-certificate{
-    width: 50%;
-    margin-left: 15px;
-    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+
+  .certificate-div {
     display: flex;
     justify-content: center;
+    padding-right: 10px;
+  }
 }
-
-
-.certificate-1{
+@media screen and (max-width: 700px) and (min-width: 576px) {
+  .certificate-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-div1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 50px rgb(0, 0, 0);
+  }
+  .certificate-2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-
-.summary{
+    flex-direction: column-reverse;
+  }
+  .summary {
     color: #ffffff;
     font-size: 24px;
     font-style: normal;
@@ -37,182 +131,97 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 25px;
+  }
 
-    
+  .summary-description {
+    width: 90%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-inline: 15px;
+    padding: 15px;
+  }
+  .udemy-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+  .ux-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+  .certification {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    border-bottom: 1px;
+    border-bottom-color: #5f0000;
+  }
+
+  .certificate-div {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+  }
 }
+@media screen and (max-width: 768px) and (min-width: 476px) {
+  .certificate-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.summary-description{
-    width: 80%;
-    font-family: 'Source Sans Pro', sans-serif;
+  .certificate-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .summary {
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  .summary-description {
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-inline: 15px;
+    padding: 15px;
+  }
+  .udemy-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+  .ux-certificate {
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(42, 253, 105);
+  }
+
+  .certification {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    border-bottom: 1px;
+    border-bottom-color: #5f0000;
+  }
+
+  .certificate-div {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+  }
 }
-@media screen  and (max-width: 475px) and (min-width: 320px){
-    .certificate-1{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        height: fit-content;
-    }
-
-    .certificate-2{
-        display: flex;
-        flex-direction: column-reverse;
-        height: fit-content;
-    }
-    .summary{
-        color: #ffffff;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-    .summary-description{
-        width: 90%;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-inline: 15px;
-        padding: 15px;
-    }
-    .udemy-certificate{
-        width: 100%;
-        box-shadow: 1px 1px 10px rgb(42, 253, 105);
-    }
-
-    .certification{
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        color: #ffffff;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 6px;
-        border-bottom: 1px;
-        border-bottom-color: #5f0000;
-    }
-
-    .certificate-div{
-        display: flex;
-        justify-content: center;
-        padding-right: 10px;
-    }
-}
-@media screen  and (max-width: 700px) and (min-width: 576px){
-    .certificate-1{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .main-div1{
-        height: fit-content;
-        width: fit-content;
-        background-color: #000;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        box-shadow: 1px 1px 50px rgb(0, 0, 0);
-      
-    }
-    .certificate-2{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .summary{
-        color: #ffffff;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 25px;
-    }
-    
-    .summary-description{
-        width: 90%;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-inline: 15px;
-        padding: 15px;
-    }
-    .udemy-certificate{
-        width: 100%;
-        box-shadow: 1px 1px 10px rgb(42, 253, 105);
-    }
-
-    .certification{
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        color: #ffffff;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 6px;
-        border-bottom: 1px;
-        border-bottom-color: #5f0000;
-    }
-
-    .certificate-div{
-        display: flex;
-        justify-content: center;
-        padding-right: 10px;
-    }
-}
-@media screen  and (max-width: 768px) and (min-width: 476px){
-    .certificate-1{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .certificate-2{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .summary{
-        color: #ffffff;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 25px;
-    }
-    
-    .summary-description{
-        width: 100%;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-inline: 15px;
-        padding: 15px;
-    }
-    .udemy-certificate{
-        width: 100%;
-        box-shadow: 1px 1px 10px rgb(42, 253, 105);
-    }
-
-    .certification{
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        color: #ffffff;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 6px;
-        border-bottom: 1px;
-        border-bottom-color: #5f0000;
-    }
-
-    .certificate-div{
-        display: flex;
-        justify-content: center;
-        padding-right: 10px;
-    }
-}
-
-
