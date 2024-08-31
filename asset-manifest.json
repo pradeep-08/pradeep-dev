@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/pradeep-dev/static/css/main.269aa284.css",
-    "main.js": "/pradeep-dev/static/js/main.8c8216c9.js",
+    "main.css": "/pradeep-dev/static/css/main.61f1bb56.css",
+    "main.js": "/pradeep-dev/static/js/main.d8619998.js",
     "static/media/skillstwo.jpg": "/pradeep-dev/static/media/skillstwo.762caa8fd22e178837f6.jpg",
     "static/media/intro.jpg": "/pradeep-dev/static/media/intro.2656a9bfc84f574ea56a.jpg",
     "static/media/19362653.jpg": "/pradeep-dev/static/media/19362653.0a4893421f4eb80a395c.jpg",
+    "static/media/digital-skills-user-exp 1.jpg": "/pradeep-dev/static/media/digital-skills-user-exp 1.9df919f3e6ce611515c7.jpg",
     "static/media/guvi.png": "/pradeep-dev/static/media/guvi.def0eda86cae87921b36.png",
     "static/media/Udemy.jpg": "/pradeep-dev/static/media/Udemy.bd9718c16a87fea7c000.jpg",
     "static/media/web-developer.1004x1024.png": "/pradeep-dev/static/media/web-developer.1004x1024.4ca45b877b2f52ee1b52.png",
@@ -15,11 +16,11 @@
     "static/media/svg.svg": "/pradeep-dev/static/media/svg.450011655036e6267c3aa31272473bae.svg",
     "static/media/laptop-removebg-dash.png": "/pradeep-dev/static/media/laptop-removebg-dash.fd4b5a8e6e94fa1df119.png",
     "index.html": "/pradeep-dev/index.html",
-    "main.269aa284.css.map": "/pradeep-dev/static/css/main.269aa284.css.map",
-    "main.8c8216c9.js.map": "/pradeep-dev/static/js/main.8c8216c9.js.map"
+    "main.61f1bb56.css.map": "/pradeep-dev/static/css/main.61f1bb56.css.map",
+    "main.d8619998.js.map": "/pradeep-dev/static/js/main.d8619998.js.map"
   },
   "entrypoints": [
-    "static/css/main.269aa284.css",
-    "static/js/main.8c8216c9.js"
+    "static/css/main.61f1bb56.css",
+    "static/js/main.d8619998.js"
   ]
 }
